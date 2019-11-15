@@ -1,0 +1,249 @@
+
+
+           Atkins Ltd / RIS University of Leeds / FVVB Ltd - SATURN 11.4.07H 27/08/2018
+                     32-BIT FTN 95 VERSION  -  LEVEL X7
+
+           PROGRAM      P1X 11.4.07 NETWORK PLOTTING 02.10.17
+           RUNNING EXE: C:\Program Files (x86)\Atkins\SATURN\XEXES 11.4.07H MC X7\$P1X.exe
+           DATE OF EXE: 27/ 8/18
+
+           MAXIMUM NUMBER OF SIMULATION NODES =     30000
+                             ASSIGNMENT NODES =    150000
+                             ASSIGNMENT LINKS =    250000
+                             ZONES            =      5750
+
+           DATE 15/11/19           TIME 10:30:58
+
+               THE MASTER FILE SAT10KEY.DAT READ FROM:
+
+               C:\Program Files (x86)\Atkins\SATURN\DAT\SAT10KEY.DAT
+
+           USER: AECOM (SATURN TRAFFIC MODEL)
+
+           BASIC DATA EITHER SET AS DEFAULT OR AS READ FROM SAT10KEY.DAT:
+
+ (DEFAULT) HPREF  =
+ (DEFAULT) CPREF  =
+ (DEFAULT) KPREF  =
+ (DEFAULT) LEFTDR =     T
+ (DEFAULT) GO4IT  =     F
+ (DEFAULT) ADDAL  =     T
+ (DEFAULT) LPERP  =    60
+ (DEFAULT) LPERT  =    34
+ (DEFAULT) DRIVE  = C:
+ (DEFAULT) KPEXT  = KP
+
+
+     COMMAND LINE PARAMETERS:  .\Epsom98oba.UFS /DUMP export12.csv 119 120 $L
+
+ OPEN THE PREFERENCES/CONTROL FILE:
+
+     TRY: C:\Program Files (x86)\Atkins\SATURN\XEXES 11.4.07H MC X7\P1X0.DAT
+
+     INPUT FILE C:\Program Files (x86)\Atkins\SATURN\XEXES 11.4.07H MC X7\P1X0.DAT
+     NOT FOUND
+
+     TRY: \SATWIN\DAT\P1X0.DAT
+
+ CONTROL FILE
+\SATWIN\DAT\P1X0.DAT
+ OPENED OK
+ FULL PATH NAME:
+C:\SATWIN\DAT\P1X0.DAT
+
+
+ READING NAMELIST DATA FROM CHANNEL 45 - \SATWIN\DAT\P1X0.DAT
+ IDENTIFIER: PARAM
+ *         1 - Numbers 2 - Boxes 3 - Bandwidth 4/5/6 - Variable
+ * Default Pen definitions:
+ *  1     BLUE           2     GREEN
+ *  3     TURQUOISE      4     RED
+ *  5     PURPLE         6     ORANGE
+ *  7     GREY           8     BROWN
+ *  9     BT BLUE       10     BT GREEN
+ * 11     MINT          12     ORANGE
+ * 13     PINK          14     YELLOW
+ * 15     WHITE         16     BLANK
+ * Pens used in Scatter plots etc.:
+ *
+ *   Real Variables:
+ *
+ *
+ *   Logical variables
+ *
+
+     UNIDENTIFIED NAMELIST VARIABLE NAME PEN123
+ *                  (Provided SPIDER = T in the network being looked at)
+ *
+ * - SATLOOK SIMULATION SUMMARY STATISTICS LOGICAL PARAMETERS
+ *
+ *
+ *   Highlight Pens for Field 2 ERL Values
+ *
+ *
+ *   Character variables
+ *
+
+
+     NAMELIST DATA INPUT ENDS
+
+            236 RECORDS READ IN TOTO
+              0 WITH SYNTAX ERRORS
+            234 VARIABLE NAMES IDENTIFIED
+              1 WITH UNIDENTIFIED NAMES OR MISMATCHED DATA
+              0 REPEATED INPUT NAMES
+
+
+
+ CLOSE CHANNEL 45 FILE \SATWIN\DAT\P1X0.DAT
+
+
+          OPEN THE MASTER NETWORK FILE ON CHANNEL 1:
+
+
+ HEADER DATA FROM THE UNFORMATTED FILE READ FROM CHANNEL  1
+
+      RUN NAME   EPSOM TOWN CENTRE: OBA ASSIGNMENT
+      CREATED BY PROGRAM SATALL
+      DATE AND TIME OF CREATION 27/ 8/18  11:24:16
+      FILE NAME: .\Epsom98oba.UFS
+      PATHNAME:  C:\Users\Fernando.MunozMendez\OneDrive - AECOM Directory\Projects\saturn dumps\Epsom98oba.UFS
+      SATURN VERSION  11.4. 7
+
+
+ N.B. BMP FILES ARE READ BY DEFAULT FROM FOLDER:
+      D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\
+      BASED ON THE PRE-SET BMP FILE (FILBMP):
+      D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom2008.bmp
+
+
+ OPEN THE NETWORK .DAT FILE ON CHANNEL 38 - FILE:
+
+     INPUT FILE Epsom98oba.DAT
+     NOT FOUND
+
+     INPUT FILE D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom98oba.DAT
+     NOT FOUND
+
+     INPUT FILE .\Epsom98oba.DAT
+     NOT FOUND
+
+ **** - NON-FATAL ERROR - **** THE ORIGINAL NETWORK DAT FILE
+        Epsom98oba.DAT
+        CANNOT BE OPENED
+
+
+ NO ORIGINAL .DAT FILE AVAILABLE -
+ THEREFORE CERTAIN EDIT FUNCTIONS ETC. ARE NOT POSSIBLE
+
+
+          OPEN A GIS FILE ON CHANNEL 19:
+
+     INPUT FILE Epsom2008.gis
+     NOT FOUND
+
+     INPUT FILE D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom2008.gis
+     NOT FOUND
+
+
+          SORRY - COULD NOT MANAGE IT!
+
+
+          OPEN A BMP FILE:
+
+
+ OPEN A NEW BITMAP FILE:
+ Epsom2008.bmp
+
+
+ BITMAP FILE PROPERTIES:
+
+ NUMBER OF IMAGES =     0
+
+
+BITMAP FILE OPENING ERROR
+
+
+ OPEN A NEW BITMAP FILE:
+ D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom2008.bmp
+
+
+ BITMAP FILE PROPERTIES:
+
+ NUMBER OF IMAGES =     0
+
+
+BITMAP FILE OPENING ERROR
+
+
+          SORRY - COULD NOT MANAGE:
+
+
+
+
+
+                    P1XDUMP:
+
+     DUMP LINK-BASED NETWORK DATA TO A TEXT FILE
+     SELECTED USING P1X INTERNAL SEQUENTIAL NUMBERS
+
+
+
+
+                    OPEN THE OUTPUT TEXT FILE:
+
+export12.csv
+
+
+          INPUT P1X DATA CODES TO DUMP AND/OR OPTIONS:
+
+
+ PROCESS INPUT TOKEN: 119
+
+ PROCESSING P1X INTERNAL DATA CODE 119 -         Diff in cruise spd + Cli
+
+
+ SORRY - P1X INTERNAL CODE 119 -        Diff in cruise spd + Cli
+ IS NOT AVAILABLE WITH THIS PARTICULAR NETWORK
+
+ PROCESS INPUT TOKEN: 120
+
+ PROCESSING P1X INTERNAL DATA CODE 120 -         Diff in total spd + Clic
+
+
+ SORRY - P1X INTERNAL CODE 120 -        Diff in total spd + Clic
+ IS NOT AVAILABLE WITH THIS PARTICULAR NETWORK
+
+ PROCESS INPUT TOKEN: $L
+ TEXT OPTION - $L
+
+
+ CLOSE CHANNEL  7 FILE export12.csv
+
+
+ DUMP ALL PARAMETERS AND WINDOW DATA INTO LAST_P1X0.DAT
+
+
+ CLOSE CHANNEL  7 FILE LAST_P1X0.DAT
+
+
+                    **************************************
+
+                      NORMAL COMPLETION OF PROGRAM P1X
+
+                     THERE HAVE BEEN    0 NON-FATAL ERRORS
+
+                     FILES CURRENTLY IN USE:
+                     CHANNEL   FILE NAME
+
+                        1     .\Epsom98oba.UFS
+                        6     .\Epsom98oba.LPP
+
+                        CPU TIME =       0.04 SECONDS
+
+                            COMPLETION CODE -  0
+
+                    **************************************
+
+
+ CLOSE CHANNEL  1 FILE .\Epsom98oba.UFS

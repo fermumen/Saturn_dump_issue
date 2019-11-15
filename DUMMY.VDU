@@ -1,0 +1,44 @@
+
+ Program P1X 11.4.07 NETWORK PLOTTING 02.10.17
+ in use by:
+
+  AECOM (SATURN TRAFFIC MODEL)
+
+ under licence from:
+       Atkins Limited - copyright 2018
+       www.saturnsoftware.co.uk
+
+     INPUT FILE C:\Program Files (x86)\Atkins\SATURN\XEXES 11.4.07H MC X7\P1X0.DAT
+     NOT FOUND
+
+
+ CLOSE CHANNEL 45 FILE \SATWIN\DAT\P1X0.DAT
+
+
+ HEADER DATA FROM THE UNFORMATTED FILE READ FROM CHANNEL  1
+
+      RUN NAME   EPSOM TOWN CENTRE: OBA ASSIGNMENT
+      CREATED BY PROGRAM SATALL
+      DATE AND TIME OF CREATION 27/ 8/18  11:24:16
+      FILE NAME: .\Epsom98oba.UFS
+      PATHNAME:  C:\Users\Fernando.MunozMendez\OneDrive - AECOM Directory\Projects\saturn dumps\Epsom98oba.UFS
+      SATURN VERSION  11.4. 7
+
+     INPUT FILE Epsom98oba.DAT
+     NOT FOUND
+
+     INPUT FILE D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom98oba.DAT
+     NOT FOUND
+
+     INPUT FILE .\Epsom98oba.DAT
+     NOT FOUND
+
+ **** - NON-FATAL ERROR - **** THE ORIGINAL NETWORK DAT FILE
+        Epsom98oba.DAT
+        CANNOT BE OPENED
+
+     INPUT FILE Epsom2008.gis
+     NOT FOUND
+
+     INPUT FILE D:\SATURN Packages\11.4.07H\package\REXES\REF\11.4.07H MC N4\Epsom2008.gis
+     NOT FOUND

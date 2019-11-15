@@ -1,0 +1,370 @@
+      0.00      0.00      0.00      0.00
+ &PARAM
+ NONO   =    0 * NOde NOtation: 0 - Suppressed 1 -
+ NOCC   =    2 * 1 = CCs only; 2 - All; 3 = Links only
+ NARRY  =    1 * 1 = Line arrows; 2 = Tubies; 3 - Box tables
+ NUDGE  =    0 * 1 = Line diagrams at simulation nodes; 2 = Not
+ JARROW =    1 *
+ JTM    =    2 *
+ NABBER =    3 * 3 - Banner on right hand side; 4 on top
+ LEGEND =    1 * 0 - No title, 1-4 = Bottom/top/LH/RH
+ KURACY =    0 * Rounding for annotated link data
+ N2WAY  =    1 * 1/2/3 - Normal data / Averaged / Summed
+ MOUSE  =    1 *
+ NAJEV  =    2 *
+ IADQ   =    1 * 1/2/3 = Actual/Demand/Queued flows
+ LW     =    1 *
+ LTM    =    2 *
+ NIPPER =    3 *
+ KEVIN  =    0 * Position of the title: 0 - invisible
+ MYCFP  =    2 * Choice of Cyclical Flow Profile
+ NPTUBE =   11 * Default node pen colour
+ IARROW =    1 * Node arrow style
+ KHI    =    4 * Pen number for highlighted links
+ JACKBW =    1 *
+ NGDS   =    1 * Options for link annotation display
+*         1 - Numbers 2 - Boxes 3 - Bandwidth 4/5/6 - Variable
+ NETCH  =    1 * Options for multi-network link display
+ LINEMM =    0 * Half-width for link display in mm
+ NDMODE =    1 *
+ MODEW  =    0 *
+ MADSLA =    0 * User class for SLA; 0 for ALL UC
+ MAXLPX =    2 * Maximum plotted lanes from external sim nodes
+ NDAQSL =    1 * 1/2/3 SLA based on Demand/Actual/Queued flows
+* Default Pen definitions:
+*  1     BLUE           2     GREEN
+*  3     TURQUOISE      4     RED
+*  5     PURPLE         6     ORANGE
+*  7     GREY           8     BROWN
+*  9     BT BLUE       10     BT GREEN
+* 11     MINT          12     ORANGE
+* 13     PINK          14     YELLOW
+* 15     WHITE         16     BLANK
+ NPMOP  =    2 * Pen no, Matrix Origin totals (+)
+ NPMDP  =    5 * Pen no, Matrix Destination totals (+)
+ NPMON  =    4 * Pen no, Matrix Origin totals (-)
+ NPMDN  =   13 * Pen no, Matrix Destination totals (-)
+ NPMOD  =    5 * Pen no, O-D Desire lines
+ NPRSIO =    5 * Pen no, RSI Origins
+ NPRSID =    6 * Pen no, RSI Destinations
+ NPLINK =   16 * Pen no, Links
+ NPDAT1 =    6 * Pen no,
+ NPDAT2 =    6 * Pen no,
+ NPNODE =    1 * Pen no, Nodes
+ NPLKX  =    7 * Pen no, Links (extra)
+ NPLKT  =   16 * Pen no, Link street names
+ NPNOFF =    4 * Pen no, Nodes (offset)
+ NPLKM  =   11 * Pen no, Link Markers
+ NPLEGE =    9 * Pen no. used to print legends
+ NPCOMP =    2 * Pen no. used to plot navigation compass points
+ NPBBAC =   15 * Banner Background Pen no,
+ NPBBOL =    9 * Bold Pen no,
+ NPBFAI =    4 * Faint Pen no,
+ NPBACK =   15 * Background Pen no, in main window
+ NPBGO  =    2 * Pen no, to indicate Go! in banners
+ NPBGRY =    7 * Pen no, to grey out options
+ NPBSTY =   16 * Pen no,
+ NPBBOR =    4 * Pen no, to draw the border
+ NPBL_B =    4 * Pen no for a bus lane denoted B
+ NPBL_S =    2 * Pen no for a bus lane denoted S
+ NPBL_T =    1 * Pen no for a bus lane denoted T
+* Pens used in Scatter plots etc.:
+ NPXYTC =   16 * Pen no,
+ NPXYAX =   16 * Pen no,
+ NPXYTI =    2 * Pen no,
+ NPXYTX =    6 * Pen no,
+ NPXYPT =    6 * Pen no,
+ NPXYF1 =   12 * Pen no,
+ NPXYF2 =    3 * Pen no,
+ NPXYF3 =   13 * Pen no,
+ IXYTIC =    2 * Scatterplot points: 1 - Square 2 - Circle
+ N_LPT  =    1 * Output printer Device (16-bit only)
+ N_COM  =    1 * Output plotter Device (16-bit only)
+ INBACH =    0 * T - Include banner in .bmp files
+*
+*   Real Variables:
+*
+ PANF   =     1.250 * Factor by which windows pan out
+ XLAP   =     0.500 * Factor by which windows move left/right
+ S1MM   =     9.000 * Length of arrow shafts in mm
+ S2MM   =     9.000 * etc
+ S3MM   =     9.000 * etc
+ SBMM   =    10.000 * etc
+ TBWPMM =   201.000 * Bandwidth per mm for tubies
+ FCSNOD =     0.300 * Factor node sizes by FCSNOD
+ RADMM  =    10.000 * Radius in mm for node display
+ PPMM   =   200.000 * Proportion per mm for turn data
+ BORDER =     0.000 * Width of the border in mm.
+ FCS    =     1.000 * Factor applied to all character heights
+ FAX    =     1.000 * Factor applied to lane widths
+ DEEPS  =     1.000 * Dynamic node displays speed up factor
+ TUBEMM =    30.000 * Length of a tubie - node displays
+ SCABMP =     1.000 * Scaling factor for bmp intensity
+ SEPMM  =     2.000 * Space between tubies - node displays
+ SPACMM =     5.000 * Gap between in/out arms - node displays
+ PLWIDE =     0.000 * Width of GIS Polylines
+ WALKPH =       3.6 * Walking speed in KPH for isochrones
+ BLSPD  =      45.0 * Default speed for new buffer links
+ BWPMM  =   100.000 * BandWidth Per MilliMetre
+ BW_MIN =     0.000 * Minimum Bandwidth in mm
+ BW_MAX =     0.000 * Maximum Bandwidth in mm
+ BW_FIX =     0.000 * Fixed (added) Bandwidth in mm
+ BLACK  =   100.000 * Annotated value for 100% dark bands
+ BARF   =   100.000 * Annotated value for a full link length bar
+ BARPMM =   100.000 * MM of annotated link bar per quantity
+ BWGAP  =     1.000 * MM between parallel annotated bands
+ ZBYZ   =     0.000 * Result of dividing zero by zero
+ WKERB  =     1.000 * Kerb Width (mm.)
+ THIKLA =     0.400 * Lane arrow thickness (mm.) in node graphics
+ A1WAYM =     1.500 * Length of 1-way link arrows in mm
+ SHIMM  =     1.000 * Width of select/highlighted links in mm
+ RJACK  =    10.000 * Band width for multi-colour data
+ ZPMSEL =   0.00000 * +- range used in equality selection tests
+ RADIUS =    500.00 * Radius of node-centred windows in metres
+ C3P75  =      3.75 * Lane width in metres (3 Point 75)
+ C40P0  =     40.00 * Arm length in node graphics (40.0 metres)
+ SFRB   =    1471.0 * Default sat flow per arm - Roundabouts
+ DEFKPH =      40.0 * Default speed in kph for simulation node edits
+*
+*   Logical variables
+*
+ NOBXY  =    T * T - XMIN etc. annotated in the banner
+ NOSHNO =    T * T - NO SHapes for NOdes displayed
+ CLOUDS =    T * T - Use colours for node shape displays
+ FILLEN =    T * T - Fill in empty node shapes
+ NODILL =    F * T - Illustrate node shapes
+ TUTTI  =    F * T - Annotate whether space is available or not
+ BYCI   =    F * T - Set link colours by Capacity Index
+ JACOB  =    F * T - Multiple colours in Tubies
+ QNT    =    F * T - Print numbers with Tubies
+ PATE   =    F * F - Link data annotated space permitting
+ BWFILL =    T * T - In-fill link data annotation bandwidths
+ BWPR   =    T * T - Include numerical values with bandwidths ...
+ BWPRIN =    F * T - ... inside the bandwidth
+ BWLAP  =    F * F - Multiple bandwidths are "in series"; else full link with
+ INC_PQ =    F * T - Include PASSQ flows within UC flows
+ INC_PL =    T * T - Include PRE-loaded flows within total flows
+ UNIPEN =    F * F - Use only 1 pen colour in plotting
+ FILLOK =    T * T - T - Use in-fill options
+ INSERT =    T * T - Add stage diagrams in node graphics
+ SLIDES =    T * F - Node graphics animation use real time
+ CFPS   =    F * F - T = Cylical Flow ProfileS in node graphs
+ BWSBYS =    F * F - T - Multiple link Band Widths are Side BY Side
+ JOSEPH =    T * T - Use multiple pen colours
+ GO4IT  =    F * T - Over-write existing files automatically
+ NOBTIT =    F * T - User credits included in title banners
+ TDOPT  =    T * T - Turn data plotted as space permits
+ BENHUR =    T * T - Plot uses full screen width
+ IVSTAR =    F * T - Denote dummy nodes by a star; otherwise blank
+ NOFFS  =    F * T - Add node names in an offset position
+ COMPTS =    T * T - Include "compass points" to shift the window
+ USESPI =    T * - T = Use spider-web aggregated network algorithms
+*                  (Provided SPIDER = T in the network being looked at)
+ WARXYU =    F * T - Check for "sensible" value of XYUNIT
+ ADEL   =    T * T - Add an average turn delay on last joyride links
+ USEALD =    F * T - Use link-averaged delays for all turns
+ P1UNI  =    T * T - Plot the union of networks 1 and 2
+ AUTO_S =    F * F - Automatically save data to DB in SLA
+ MATSLA =    F * F - SLA outputs link flows, not matrices
+ SLAUP  =    T * T - SLA includes all upstream flows
+ SLADWN =    T * T - SLA includes all downstream flows
+ SLAON  =    T * T - SLA includes flows on links
+ DANES  =    F * T - Kerbs are marked on links
+ BACKGD =    T * T - Plot a background (if file exists)
+ PANDP  =    T * T - Pick and plot link data; else add to data base
+ UNIWAY =    T * T - SLA based on 1-way links
+ AUTREF =    T * T - Automatic refresh
+ DANESA =    T * T - Lanes marked on simulation links
+ DANESB =    T * T - Bus lanes marked on simulation links
+ DRAWBL =    T * T - Draw border lines around the plots
+ DIYFNT =    F * F - Use DIY fonts
+ BOBBY  =    T * T - Delete BMP background to annotate
+ DEFTF  =    F * F - Use the filename as printed title
+ DETR   =    T * T = Apply DfT Compliance rules for counts
+ REPMV  =    F * T - Replace Missing Satdb Values by XREPMV
+ XREPMV =     0.000 * Default numerical value for missing values
+ AGG_VC =    F * T - Use data aggregated by count sets under Validation
+ PNP_VC =    T * F - Count Validation Data automatically stored to DB
+ TOPXVC =    F * T - Count Validation Top Ten only
+ PLT_VC =    T * T - Count Validation includes turns
+ PLL_VC =    T * T - Count Validation includes links
+ ACT_VC =    T * T - Count Validation based on Actual Flows
+ BUS_VC =    T * T - Count Validation includes Bus Flows
+ BUSTDP =    F * T - Bus/Validation routes plotted as time v distance
+ BUS2DB =    F * T - Bus/Validation routes added as a data base column
+ BUSJOY =    F * T - Bus/Validation routes displayed as a joy ride - one link at a time
+ SCL_TI =    T * T - Scale link times proportional to distance
+ SCL_ST =    T * T - Scale stacking capacities proportional to distance
+ SCL_SF =    T * T - Scale sat flows proportional to number of lanes
+ ADDLCR =    F * T - Add buffer speed-flow curves onto simulation links
+ GRAFS  =    F * - T = CFPs displayed as graphs
+ HOURLY =    F * - T = CFPs displayed as pcu/hr
+ BYLANE =    F * - T = CFPs disaggregated by lane
+ MATFOR =    T * - T = Output buffer turn flows in a matrix format
+ LPOUT  =    T * - T = Output buffer turn flows to the LP file; else to text
+ LPLCSV =    T * - T = Output (selected) text in CSV Formats
+ CZONE  =    T * - T = Prefix zone names with a C in output files
+ NDBZIN =    F * T - Print all zones in SATDB listings
+ LDBZIN =    T * T - Print all centroid connectors in SATDB listings
+ NDBMIN =    T * T - Print nodes which have all missing data values
+ LDBMIN =    T * T - Print links which have all missing data values
+ SELNMV =    F * T - Select non-missing data values input as DA codes
+ SMVAND =    F * T - ... using an AND test
+ LKSBY3 =    T * T - Output CSV links include an extra blank 3rd column to match turns
+ FREEKP =    T * T - Use free-format (CSV) outputs for link data
+ GIS1   =    F * T - Plot shapes in .GIS files
+ GIS2   =    F * T - Plot poly-lines
+ GIS3   =    F * T - Plot ikons
+ GIS4   =    F * T - Plot text
+ GIS5   =    F * T - Plot node names
+ GIS6   =    F * T - Plot link names
+ GIS7   =    F * T - Plot curved links
+ GIS8   =    F * Not used yet
+ GIS9   =    F * Not used yet
+ KPLOTD =    T * T - New data bse entries are automatically displayed
+ ZIGZAG =    F * T - Highlighted links are zig-zag
+ DIRECT =    F * T - Highlighted link bars are directional
+ KGORGR =    T * Annotate Emissions as Kilos(T) or Grams(F)
+ UCPCU  =    T * Annotate UC flows as PCU(T) or Vehicles(F)
+ KR5COL =    T * - T = Nodes in ASCII input files in blocks of 5; F = 6
+ KP5COL =    T * - T = Nodes in ASCII output files in blocks of 5; F = 6
+*
+* - SATLOOK SIMULATION SUMMARY STATISTICS LOGICAL PARAMETERS
+*
+S3_SL  =     F * T - Selected links only
+S3_BYI =     F * T - Disaggregate stats by selected index
+S3_BUF =     T * T - Include buffer links in stats
+S3_SN  =     F * T - Selected nodes only
+S3CSV  =     F * T - Output full data to a .CSV file
+S3TERM =     T * T - Output to the screen
+S3CSVL =     F * T - Output data by link to a .CSV file
+S3CSVN =     F * T - Output data by node to a .CSV file
+EFORM  =     F * T - Network Summary stats written in E-Format
+*
+*   Highlight Pens for Field 2 ERL Values
+*
+ NP_ERL(1) =  10 * Level  1 - LT GREEN
+ NP_ERL(2) =   9 * Level  2 - LT BLUE
+ NP_ERL(3) =  12 * Level  3 -  LT RED
+ NP_ERL(4) =   4 * Level  4 -   RED
+ NP_ERL(5) =   4 * Level  5 -   RED
+ NP_ERL(6) =   0 * Level  6 -  Blank
+ NP_ERL(7) =   0 * Level  7 -  Blank
+ NP_ERL(8) =   0 * Level  8 -  Blank
+ NP_ERL(9) =   0 * Level  9 -  Blank
+ NP_ERL(10)=   0 * Level 10 -  Blank
+ NP_ERL(11)=   0 * Level 11 -  Blank
+ NP_ERL(12)=   0 * Level 12 -  Blank
+ NP_ERL(13)=   0 * Level 13 -  Blank
+ NP_ERL(14)=   0 * Level 14 -  Blank
+ NP_ERL(15)=   0 * Level 15 -  Blank
+ NP_ERL(16)=   0 * Level 16 -  Blank
+*
+*   Character variables
+*
+ XYFORM = '2I5' * - Default FORMAT for X,Y inputs
+ KPEXT  = 'TXT' * - Default extension for text files
+ &END
+*
+11111
+* Default settings for line characteristics by Capacity Index:
+* Index  Pen  Width (mm) (Negative width means Never Plot!)
+    1    1    0
+    2    2    0
+    3    3    0
+    4    4    0
+    5    5    0
+    6    6    0
+    7    7    0
+    8    8    0
+    9    9    0
+   10   10    0
+   11   11    0
+   12   12    0
+   13   13    0
+   14   14    0
+   99    0    0
+99999
+PEN-RANGES defined per data items 0 through 24
+* where item 0 = universal parameters (1st 3 lines)
+* with 3 records each containing the following:
+* (1) T/F = Range/Single Colour; T/F = Uniform/Explict range; Min Range
+* (2) 10 range cut-off points in increasing order
+* (3) 10 equivalent colours on the terminal and on hard copy
+* See Sections 11.6.3.3 and 11.6.3.9 in the Manual
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  1  2  3  4  5  6  7  8  9 10 11  8  9 10 11 12 13 14 15  1  2  3
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  2  3  4  5  6  7  8  9 10 11 12  9 10 11 12 13 14 15  1  2  3  4
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  3  4  5  6  7  8  9 10 11 12 13 10 11 12 13 14 15  1  2  3  4  5
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  4  5  6  7  8  9 10 11 12 13 14 11 12 13 14 15  1  2  3  4  5  6
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  5  6  7  8  9 10 11 12 13 14 15 12 13 14 15  1  2  3  4  5  6  7
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  6  7  8  9 10 11 12 13 14 15  1 13 14 15  1  2  3  4  5  6  7  8
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  7  8  9 10 11 12 13 14 15  1  2 14 15  1  2  3  4  5  6  7  8  9
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  8  9 10 11 12 13 14 15  1  2  3 15  1  2  3  4  5  6  7  8  9 10
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  9 10 11 12 13 14 15  1  2  3  4  1  2  3  4  5  6  7  8  9 10 11
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 10 11 12 13 14 15  1  2  3  4  5  2  3  4  5  6  7  8  9 10 11 12
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 11 12 13 14 15  1  2  3  4  5  6  3  4  5  6  7  8  9 10 11 12 13
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 12 13 14 15  1  2  3  4  5  6  7  4  5  6  7  8  9 10 11 12 13 14
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 13 14 15  1  2  3  4  5  6  7  8  5  6  7  8  9 10 11 12 13 14 15
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 14 15  1  2  3  4  5  6  7  8  9  6  7  8  9 10 11 12 13 14 15  1
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 15  1  2  3  4  5  6  7  8  9 10  7  8  9 10 11 12 13 14 15  1  2
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  1  2  3  4  5  6  7  8  9 10 11  8  9 10 11 12 13 14 15  1  2  3
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  2  3  4  5  6  7  8  9 10 11 12  9 10 11 12 13 14 15  1  2  3  4
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  3  4  5  6  7  8  9 10 11 12 13 10 11 12 13 14 15  1  2  3  4  5
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  4  5  6  7  8  9 10 11 12 13 14 11 12 13 14 15  1  2  3  4  5  6
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  5  6  7  8  9 10 11 12 13 14 15 12 13 14 15  1  2  3  4  5  6  7
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  6  7  8  9 10 11 12 13 14 15  1 13 14 15  1  2  3  4  5  6  7  8
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  7  8  9 10 11 12 13 14 15  1  2 14 15  1  2  3  4  5  6  7  8  9
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  8  9 10 11 12 13 14 15  1  2  3 15  1  2  3  4  5  6  7  8  9 10
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+  9 10 11 12 13 14 15  1  2  3  4  1  2  3  4  5  6  7  8  9 10 11
+ F T    100.00      0.00
+    0.00  100.00  200.00  300.00  400.00  500.00  600.00  700.00  800.00  900.00
+ 10 11 12 13 14 15  1  2  3  4  5  2  3  4  5  6  7  8  9 10 11 12
+99999
